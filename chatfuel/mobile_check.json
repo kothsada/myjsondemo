@@ -1,0 +1,33 @@
+{
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "media",
+          "elements": [
+            {
+              "media_type": "video",
+              "url": "https://www.facebook.com/chatfuelrockets/videos/252894858962779/",
+              "buttons": [
+                {
+                  "title": "Go to Chatfuel!",
+                  "type": "web_url",
+                  "url": "https://chatfuel.com/"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "quick_replies": [
+        {
+          "title": "That's cool!",
+          "set_attributes": {
+            "feedback": "Cool!"
+          }
+        }
+      ]
+    }
+  ]
+}
